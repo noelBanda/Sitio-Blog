@@ -2,4 +2,35 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+
+#quienesSomos {
+  width: 70vw; /* 70% del ancho de la ventana */
+  margin: 40px auto; /* centrado horizontal y espacio arriba/abajo */
+  position: relative;
+}
+
+#quienesSomos img {
+  width: 70%;
+  margin: 0 15%;
+}
+
+#div-atras-quienes-somos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #dcdcdc;
+  transform: rotate(-3deg);
+  z-index: 1;
+  border-radius: 8px;
+}
+
+#div-delante-quienes-somos {
+  position: relative;
+  background-color: white;
+  padding: 30px;
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
