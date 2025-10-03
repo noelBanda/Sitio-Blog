@@ -5,8 +5,24 @@ html {
     padding: 0px;
   }
   
+#imgprin{
+  display: block;
+  margin: 0 auto;
+}
+
+#p{
+  padding: 100px;
+}
+
+#divprin{
+  max-width: 700px;    /* controlas qué tan ancho puede ser */
+  padding: 20px;
+  background: #f7c7db; /* ejemplo: color rosa */
+  border-radius: 12px;
+}
 
 footer {
+      
       background-color: #2c3e50;
       padding: 30px 20px;
       display: flex;
@@ -51,6 +67,7 @@ footer {
       color: #ccc;
     }
   body {
+    background-color: #f2d9ff;
   margin-top: 80px; 
 }
   header{
